@@ -20,13 +20,12 @@ from nltk.tokenize import RegexpTokenizer
 
 
 news = read_csv("estadao_noticias_eleicao.csv", encoding="utf-8")
-
+news = news.fillna("")
 
 # In[ ]:
 
 
 content = news.titulo + " " + news.subTitulo + " " + news.conteudo
-content = content.fillna("")
 
 
 # In[ ]:
