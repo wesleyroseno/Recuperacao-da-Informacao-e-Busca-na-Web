@@ -19,7 +19,7 @@ from nltk.tokenize import RegexpTokenizer
 # In[ ]:
 
 
-news = read_csv("../data/estadao_noticias_eleicao.csv", encoding="utf-8")
+news = read_csv("estadao_noticias_eleicao.csv", encoding="utf-8")
 
 
 # In[ ]:
