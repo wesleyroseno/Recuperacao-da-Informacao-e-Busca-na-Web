@@ -113,7 +113,7 @@ def consult_frequency(w1, w2):
 # In[ ]:
 
 
-w1 = 'poucos'
-w2 = 'recursos'
-consult_frequency(w1, w2)
+#w1 = 'poucos'
+#w2 = 'recursos'
+#consult_frequency(w1, w2)
 
