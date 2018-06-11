@@ -99,7 +99,7 @@ matrix, vocab = co_occurrence_matrix(tokens)
 
 consultable_matrix = matrix.tocsr()
 
-
+''' Trecho do codigo não utilizado para o Lab 02
 # In[ ]:
 
 
@@ -112,7 +112,7 @@ def consult_frequency(w1, w2):
 # In[ ]:
 
 
-#w1 = 'poucos'
-#w2 = 'recursos'
-#consult_frequency(w1, w2)
-
+w1 = 'poucos'
+w2 = 'recursos'
+consult_frequency(w1, w2)
+'''
